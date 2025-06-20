@@ -27,13 +27,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased grid grid-rows-[80px_1fr_auto] min-h-screen`}
       >
-        <header className="p-2 text-green-dark">
+        <header className="p-2 lg:px-9 text-green-dark">
           <div>Revhaugen Gård</div>
         </header>
-        <main className="px-2 py-8">{children}</main>
-        <footer className="bg-green-dark text-green-x-light p-14">
-          <div className="mb-4">Revhaugen Gård</div>
-          <div className="flex flex-col gap-3">
+        <main className="px-2 py-8 lg:px-9">{children}</main>
+        <footer className="bg-green-dark text-green-x-light p-14 lg:px-20 flex flex-col md:flex-row md:justify-between">
+          <div className="mb-4 text-2xl">Revhaugen Gård</div>
+          <div className="flex flex-col gap-3 lg:flex-row lg:gap-12">
             <div className="flex flex-col gap-1">
               <p>Kontakt:</p>
               <a href="mailto:christinalande@gmail.com" className="">
