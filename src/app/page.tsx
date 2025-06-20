@@ -1,7 +1,8 @@
 export default function Home() {
   return (
-    <div className="font-[family-name:var(--font-geist-sans)]">
-      Main content
-    </div>
+    <section className="font-[family-name:var(--font-geist-sans)]">
+      <h1 className="text-2xl md:text-3xl">Et lite småbruk som dyrker trivsel for alle</h1>
+      <p>Revhaugen Gård er godkjent Inn på tunet-gård, og tilbyr kvalitetsikrede velferdstjenester som gir mestring, utvikling og trivsel.</p>
+    </section>
   );
 }
